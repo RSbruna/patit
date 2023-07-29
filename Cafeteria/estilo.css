@@ -1,0 +1,230 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffbfb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Estilos do Cabeçalho */
+header {
+  background-color: #f135a3;
+  color: #fff;
+  padding: 10px 0;
+  height: 82px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 48px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Estilos do Hero */
+#hero {
+  background-size: cover;
+  background-position: center;
+  color: #080707;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#coberturinha {
+  margin-top: -100px;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #f135a3;
+  border: none;
+  color: hsl(0, 20%, 98%);
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f5e1ce;
+}
+
+/* Estilos da Seção Sobre */
+#about {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#about h2 {
+  color: #4CAF50;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* Estilos da Seção Eventos */
+#events {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#events h2 {
+  color: #4CAF50;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#events ul {
+  list-style: none;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+
+#events ul li {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+}
+
+#events ul li:before {
+  content: "\2022"; /* Código para o símbolo do bullet (•) */
+  position: absolute;
+  left: 0px;
+  color: #4CAF50;
+}
+
+/* Estilos da Seção Contato */
+#contact {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #4CAF50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Estilos extras */
+.section-title {
+  font-size: 36px;
+  color: #4CAF50;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45A049;
+}
+
+/* Estilos do Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Cores dos ícones das redes sociais */
+.social-icons a:hover {
+  color: #4CAF50;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Petit Caffé Cardápio</title>
+        <link rel="stylesheet" href="cardapio.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">Petit Caffé</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./cardapio.html">Cardápio</a></li>
+                    <li><a href="./eventos.html">Eventos</a></li>
+                    <li><a href="./carrinho.html">Carrinho</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="cardapio">
+                <h2>Cardápio</h2>
+                <h3>Bebidas</h3>
+                <ul>
+                    <li>Café Espresso - R$ 5,00
+                        <button onclick="adicionarItem('Café Espresso', 5.00)">+</button>
+                        <button onclick="removerItem('Café Espresso', 5.00)">-</button>
+                    </li>
+                    <li>Cappuccino - R$ 7,00
+                        <button onclick="adicionarItem('Cappuccino', 7.00)">+</button>
+                        <button onclick="removerItem('Cappuccino', 7.00)">-</button>
+                    </li>
+                    <li>Latte Macchiato - R$ 8,00
+                        <button onclick="adicionarItem('Latte Macchiato', 8.00)">+</button>
+                        <button onclick="removerItem('Latte Macchiato', 8.00)">-</button>
+                    </li>
+                    <li>Chai Latte - R$ 9,00
+                        <button onclick="adicionarItem('Chai Latte', 9.00)">+</button>
+                        <button onclick="removerItem('Chai Latte', 9.00)">-</button>
+                    </li>
+                    <li>Mocha - R$ 9,00
+                        <button onclick="adicionarItem('Mocha', 9.00)">+</button>
+                        <button onclick="removerItem('Mocha', 9.00)">-</button>
+                    </li>
+                    <li>Frappuccino - R$ 10,00
+                        <button onclick="adicionarItem('Frappuccino', 10.00)">+</button>
+                        <button onclick="removerItem('Frappuccino', 10.00)">-</button>
+                    </li>
+                    <li>Água - R$ 2,50
+                        <button onclick="adicionarItem('Água', 2.50)">+</button>
+                        <button onclick="removerItem('Água', 2.50)">-</button>
+                    </li>
+                    <li>Sucos Naturais- R$ 12,00
+                        <button onclick="adicionarItem('Sucos', 12.00)">+</button>
+                        <button onclick="removerItem('Sucos', 12.00)">-</button>
+                    </li>
+                </ul>
+                <h3>Pratos</h3>
+                <ul>
+                    <li>Quiche Lorraine - R$ 12,00
+                        <button onclick="adicionarItem('Quiche Lorraine', 12.00)">+</button>
+                        <button onclick="removerItem('Quiche Lorraine', 12.00)">-</button>
+                    </li>
+                    <li>Sanduíche de Salmão Defumado - R$ 15,00
+                        <button onclick="adicionarItem('Sanduíche de Salmão Defumado', 15.00)">+</button>
+                        <button onclick="removerItem('Sanduíche de Salmão Defumado', 15.00)">-</button>
+                    </li>
+                    <li>Tartelette de Frutas Vermelhas - R$ 8,00
+                        <button onclick="adicionarItem('Tartelette de Frutas Vermelhas', 8.00)">+</button>
+                        <button onclick="removerItem('Tartelette de Frutas Vermelhas', 8.00)">-</button>
+                    </li>
+                    <li>Macarons (unidade) - R$ 3,00
+                        <button onclick="adicionarItem('Macarons', 3.00)">+</button>
+                        <button onclick="removerItem('Macarons', 3.00)">-</button>
+                    </li>
+                    <li>Petit Gateau - R$ 10,00
+                        <button onclick="adicionarItem('Petit Gateau', 10.00)">+</button>
+                        <button onclick="removerItem('Petit Gateau', 10.00)">-</button>
+                    </li>
+                </ul>
+                <h3>Sorvetes e Açaís</h3>
+                <ul>
+                    <li>Copo de Sorvete - R$ 7,00
+                        <button onclick="adicionarItem('Copo de Sorvete', 7.00)">+</button>
+                        <button onclick="removerItem('Copo de Sorvete', 7.00)">-</button>
+                    </li>
+                    <li>Cascão - R$ 8,00
+                        <button onclick="adicionarItem('Cascão', 8.00)">+</button>
+                        <button onclick="removerItem('Cascão', 8.00)">-</button>
+                    </li>
+                    <li>Barca de Sorvete - R$ 15,00
+                        <button onclick="adicionarItem('Barca de Sorvete', 15.00)">+</button>
+                        <button onclick="removerItem('Barca de Sorvete', 15.00)">-</button>
+                    </li>
+                    <li>Açaí Tradicional - R$ 10,00
+                        <button onclick="adicionarItem('Açaí Tradicional', 10.00)">+</button>
+                        <button onclick="removerItem('Açaí Tradicional', 10.00)">-</button>
+                    </li>
+                    <li>Açaí com Frutas - R$ 12,00
+                        <button onclick="adicionarItem('Açaí com Frutas', 12.00)">+</button>
+                        <button onclick="removerItem('Açaí com Frutas', 12.00)">-</button>
+                    </li>
+                    <li>Açaí com Granola - R$ 12,00
+                        <button onclick="adicionarItem('Açaí com Granola', 12.00)">+</button>
+                        <button onclick="removerItem('Açaí com Granola', 12.00)">-</button>
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="carrinho">
+                <h2>Carrinho de Pedidos</h2>
+                <ul id="itens-carrinho"></ul>
+                <p id="total-carrinho">Total: R$ <span id="total-valor">0.00</span></p>
+                <button onclick="realizarPedido()">Realizar Pedido</button>
+            </section>
+            <section id="formulario-pedido">
+                <h2>Formulário de Pedido</h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required><br>
+                    
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" required><br>
+                    
+                    <label for="forma-pagamento">Forma de Pagamento:</label>
+                    <select id="forma-pagamento" name="forma-pagamento" required>
+                        <option value="" disabled selected>Selecione a forma de pagamento</option>
+                        <option value="credito">Cartão de Crédito</option>
+                        <option value="debito">Cartão de Débito</option>
+                        <option value="dinheiro">Dinheiro</option>
+                    </select><br>
+                    
+                    <button type="submit">Enviar Pedido</button>
+                </form>
+            </section>
+        </main>
+        <script>
+            let carrinho = [];
+            
+            function adicionarItem(nome, preco) {
+                carrinho.push({ nome: nome, preco: preco });
+                exibirCarrinho();
+            }
+            
+            function removerItem(nome, preco) {
+                const index = carrinho.findIndex(item => item.nome === nome && item.preco === preco);
+                if (index > -1) {
+                    carrinho.splice(index, 1);
+                }
+                exibirCarrinho();
+            }
+            
+            function exibirCarrinho() {
+                const itensCarrinho = document.getElementById("itens-carrinho");
+                const totalValor = document.getElementById("total-valor");
+                itensCarrinho.innerHTML = "";
+                
+                let total = 0.00;
+                
+                carrinho.forEach(item => {
+                    const li = document.createElement("li");
+                    li.textContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+                    itensCarrinho.appendChild(li);
+                    total += item.preco;
+                });
+                
+                totalValor.textContent = total.toFixed(2);
+            }
+            
+            function realizarPedido() {
+                if (carrinho.length === 0) {
+                    alert("Seu carrinho está vazio. Adicione itens antes de realizar o pedido.");
+                } else {
+                    alert("Pedido realizado com sucesso! Aguarde a entrega.");
+                    carrinho = [];
+                    exibirCarrinho();
+                }
+            }
+        </script>
+        <footer>
+            <p>&copy; 2023 Petit Caffé. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    </html>

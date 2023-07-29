@@ -1,0 +1,124 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', cursive;
+  background-color: #f2f2f2;
+}
+
+section
+{
+margin:20px;
+background-color: white;
+}
+header {
+  background-color: #f135a3;
+    color: #fff;
+    height: 100px;
+    padding: 10px 0;
+}
+.container
+{
+padding: 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 48px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+li{
+  margin-bottom: 15px;
+}
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menu li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#tabela {
+  text-align: center;
+}
+
+table th,
+table td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+table th {
+  background-color: #f8f8f8;
+  font-weight: 600;
+}
+
+/* Additional styles */
+p {
+  margin-bottom: 15px;
+}
+
+ /* Estilos do Footer */
+ footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Cores dos ícones das redes sociais */
+.social-icons a:hover {
+  color: #4CAF50;
+}

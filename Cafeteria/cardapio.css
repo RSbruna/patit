@@ -1,0 +1,124 @@
+/* cardapio.css */
+
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: relative; /* Para posicionar a imagem */
+}
+header {
+  background-color: #f135a3;
+  color: #fff;
+  padding: 10px 0;
+  height: 82px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+li{
+  margin: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#cardapio {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#cardapio h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+#cardapio h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+#cardapio ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#cardapio li {
+  margin-bottom: 10px;
+}
+
+#cardapio li:before {
+  content: "• ";
+  color: #333;
+}
+
+#cardapio button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cardapio button:hover {
+  background-color: #555;
+}
+
+#imgplace{
+  width: auto;
+  height: 250px;
+  margin-left: 100px;
+}
+
+#comidas{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
